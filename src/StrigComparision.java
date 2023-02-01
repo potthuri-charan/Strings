@@ -1,7 +1,10 @@
 public class StrigComparision {
     public static void main(String[] args) {
-        String a="Charan";
-        char ch=a.charAt(0);
-        System.out.println("The charcater present at 0 position is:"+ch);
+       String a="Charan";
+       String b="Srinivas";
+       String c="Sukrutha";
+        System.out.println(a.compareTo(b));
+        System.out.println(a.compareTo(c));
+        System.out.println(b.compareTo(c));
     }
 }
